@@ -1,4 +1,4 @@
-package com.soulet.simon.mynews2.controllers;
+package com.soulet.simon.mynews2.controllers.activities;
 
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
