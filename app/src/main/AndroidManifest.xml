@@ -20,7 +20,14 @@
             android:name=".controllers.activities.SearchActivity"
             android:label="Search"
             android:parentActivityName=".controllers.activities.MainActivity">
-
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".controllers.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".controllers.activities.NotifsActivity"
+            android:label="Notification"
+            android:parentActivityName=".controllers.activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".controllers.activities.MainActivity" />
