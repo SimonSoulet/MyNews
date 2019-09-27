@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.soulet.simon.mynews2">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -26,12 +29,15 @@
         </activity>
         <activity
             android:name=".controllers.activities.NotifsActivity"
-            android:label="Notification"
+            android:label="Notifications"
             android:parentActivityName=".controllers.activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".controllers.activities.MainActivity" />
         </activity>
+        <activity android:name=".controllers.activities.WebViewActivity" />
+        <activity android:name=".controllers.activities.SearchResultActivity"/>
+        <receiver android:name=".utils.others.SearchArticlesReceiver"/>
     </application>
 
 </manifest>

@@ -8,8 +8,8 @@
     </item>
     <item
         android:id="@+id/menu_activity_main_params"
-        android:icon="@drawable/ic_more_vert_white_24dp"
+        android:icon="@drawable/baseline_notification_important_white_24"
         app:showAsAction="ifRoom"
-        android:title="Paramètres">
+        android:title="Notifications">
     </item>
 </menu>

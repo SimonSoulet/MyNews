@@ -23,4 +23,8 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.soulet.simon.mynews2", appContext.getPackageName());
     }
+
+    @Test
+    public void switchTest(){
+    }
 }

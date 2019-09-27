@@ -4,7 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.soulet.simon.mynews2.controllers.fragments.BusinessFragment;
+import com.soulet.simon.mynews2.controllers.fragments.InterestFragment;
 import com.soulet.simon.mynews2.controllers.fragments.MostPopularFragment;
 import com.soulet.simon.mynews2.controllers.fragments.TopStoriesFragment;
 
@@ -27,7 +27,7 @@ public class PageAdapter extends FragmentPagerAdapter {
             case 1: //Page number 2
                 return MostPopularFragment.newInstance();
             case 2: //Page number 3
-                return BusinessFragment.newInstance();
+                return InterestFragment.newInstance();
             default:
                 return null;
         }
@@ -41,7 +41,7 @@ public class PageAdapter extends FragmentPagerAdapter {
             case 1: //Page number 2
                 return "MOST POPULAR";
             case 2: //Page number 3
-                return "BUSINESS";
+                return "INTEREST";
             default:
                 return null;
         }

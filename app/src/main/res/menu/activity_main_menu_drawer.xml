@@ -12,7 +12,7 @@
             android:title="MOST POPULAR" />
         <item
             android:id="@+id/activity_main_drawer_business"
-            android:title="BUSINESS" />
+            android:title="INTEREST" />
     </group>
 
 </menu>
