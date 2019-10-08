@@ -2,7 +2,7 @@ language: android
 dist: trusty
 android:
   components:
-    - build-tools-2670.2
+    - build-tools-27.1.1
     - android-27
     - add-on
     - extra
